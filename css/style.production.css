@@ -30,13 +30,13 @@ body {
 h1 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
-  font-weight: var(font-weight-headings);
+  font-weight: 700;
 }
 
 thead {
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
-  font-weight: var(font-weight-headings);
+  font-weight: 700;
 }
 
 h2 {
@@ -75,7 +75,7 @@ a:active {
 button {
   border: none;
   display: inline-block;
-  font-family: var(font-family-body);
+  font-family: 'Roboto', sans-serif;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #357b70;
   color: #fff;
@@ -93,7 +93,7 @@ button {
 .button {
   border: none;
   display: inline-block;
-  font-family: var(font-family-body);
+  font-family: 'Roboto', sans-serif;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #357b70;
   color: #fff;
@@ -111,7 +111,7 @@ button {
 a.button {
   border: none;
   display: inline-block;
-  font-family: var(font-family-body);
+  font-family: 'Roboto', sans-serif;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #357b70;
   color: #fff;
@@ -401,6 +401,7 @@ label {
     fill: #f76414;
   }
 }
+
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
           animation: 4s color-change infinite alternate linear;
