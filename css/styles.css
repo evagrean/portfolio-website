@@ -331,6 +331,7 @@ label {
     fill: var(--color-sun-100);
   }
 }
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
