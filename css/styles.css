@@ -87,7 +87,7 @@ a:active {
 button, .button, a.button {
   border: none;
   display: inline-block;
-  font-family: var(font-family-body);
+  font-family: var(--font-family-body);
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--primary-color);
   color: var(--color-button-text);
