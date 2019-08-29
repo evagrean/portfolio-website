@@ -184,7 +184,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 svg {
   display: block;
-  margin: 30px 200px;
+  margin: 30px auto;
+  width: 70%;
 }
 
 .my-skills {
