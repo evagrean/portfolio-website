@@ -287,9 +287,6 @@ label {
   .my-skills {
     grid-template-columns: 1fr;
   }
-  .navigation-list__item: {
-    margin-right: 10px;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px){
