@@ -12,6 +12,8 @@ Color sun 100%: #f76414;
 Color quadriga 0%: #D64A4A;
 Color quadriga 50%: #d87f7f;
 Color quadriga 100%: #e7d0d0;
+Color background header: #f6f2f3;
+Color background body: #e4d6d8;
 
 */
 
@@ -25,6 +27,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  background-color: #e4d6d8;
 }
 
 h1 {
@@ -157,7 +160,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
+  background-color: #f6f2f3;
   border-bottom: 0.5px dotted;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
 
@@ -211,6 +218,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  margin-top: 120px;
 }
 
 /* about.html styles */
@@ -226,6 +234,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: block;
   text-align: center;
   margin: 10px 20px;
+  margin-top: 120px;
 }
 
 svg {
@@ -264,6 +273,9 @@ svg {
   width: 33%;
 }
 
+section {
+  margin-top: 120px;
+}
 /* Styling CSS project-list */
 
 .project-list {
@@ -298,6 +310,7 @@ svg {
 .contact-data {
   margin: auto;
   text-align: center;
+  margin-top: 120px;
 }
 
 form {
