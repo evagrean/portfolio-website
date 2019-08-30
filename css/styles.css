@@ -116,6 +116,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     transition: 0.1s font-size;
 }
 
+.active-page {
+  background-color: blue;
+}
+
 .page-header {
   display: flex;
   width: 100%;
