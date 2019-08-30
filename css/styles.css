@@ -12,11 +12,13 @@ Color sun 100%: #f76414;
 Color quadriga 0%: #D64A4A;
 Color quadriga 50%: #d87f7f;
 Color quadriga 100%: #e7d0d0;
+Color background header: #f6f2f3;
 
 */
 :root {
   --primary-color: #357b70;
   --dark-grey: #2b2b2b;
+  --color-background-header: #f6f2f3;
   --color-link-visited: #05676e;
   --color-link-active: #489c79;
   --color-navigation-link-hover: #254d47;
@@ -127,7 +129,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
+  background-color: var(--color-background-header);
   border-bottom: 0.5px dotted;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 
 
