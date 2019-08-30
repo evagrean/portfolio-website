@@ -132,6 +132,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 10px;
   margin-bottom: 40px;
   border-bottom: 0.5px dotted;
+  background-color: white;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -194,7 +195,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .introduction {
   display: block;
   text-align: center;
-  margin: 120px 10px 20px 20px;  
+  margin: 120px 10px 20px 20px;
 }
 
 svg {
