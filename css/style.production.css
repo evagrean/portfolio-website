@@ -27,7 +27,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #e4d6d8;
 }
 
 h1 {
@@ -160,7 +159,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
-  background-color: #f6f2f3;
   border-bottom: 0.5px dotted;
   overflow: hidden;
   position: fixed;
@@ -233,7 +231,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .introduction {
   display: block;
   text-align: center;
-  margin: 10px 20px;
+  margin-left: 10px 20px;
   margin-top: 120px;
 }
 
@@ -273,7 +271,7 @@ svg {
   width: 33%;
 }
 
-section {
+.work-section {
   margin-top: 120px;
 }
 /* Styling CSS project-list */
