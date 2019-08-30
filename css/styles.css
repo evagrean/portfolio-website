@@ -111,14 +111,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .navigation-list__item:hover {
-    font-size: 20px;
+    font-size: 28px;
     color: var(--color-navigation-link-hover);
     transition: 0.1s font-size;
 }
 
 .navigation-list__item--active {
   font-size: 28px;
-  font-weight: bolder;
+  border-bottom: dotted 1px;
+  border-top: dotted 1px;
 }
 
 .page-header {

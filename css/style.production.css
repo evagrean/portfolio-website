@@ -137,7 +137,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .navigation-list__item:hover {
-    font-size: 20px;
+    font-size: 28px;
     color: #254d47;
     -webkit-transition: 0.1s font-size;
     -o-transition: 0.1s font-size;
@@ -146,7 +146,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .navigation-list__item--active {
   font-size: 28px;
-  font-weight: bolder;
+  border-bottom: dotted 1px;
+  border-top: dotted 1px;
 }
 
 .page-header {
