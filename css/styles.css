@@ -262,6 +262,7 @@ section {
 .contact-data {
   margin: auto;
   text-align: center;
+  margin-top: 120px;
 }
 
 form {
