@@ -12,8 +12,8 @@ Color sun 100%: #f76414;
 Color quadriga 0%: #D64A4A;
 Color quadriga 50%: #d87f7f;
 Color quadriga 100%: #e7d0d0;
-Color background header: #f6f2f3;
-Color background body: #e4d6d8;
+Color background header: #fff;
+
 
 */
 
@@ -160,6 +160,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 10px;
   margin-bottom: 40px;
   border-bottom: 0.5px dotted;
+  background-color: undefined;
   overflow: hidden;
   position: fixed;
   top: 0;

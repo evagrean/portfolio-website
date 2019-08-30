@@ -131,7 +131,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 10px;
   margin-bottom: 40px;
   border-bottom: 0.5px dotted;
-  background-color: var(--background-color-header);
+  background-color: var(--color-background-header);
   overflow: hidden;
   position: fixed;
   top: 0;
