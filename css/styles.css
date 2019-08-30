@@ -178,6 +178,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  margin-top: 120px;
 }
 
 /* about.html styles */
