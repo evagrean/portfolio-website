@@ -47,7 +47,6 @@ body {
   font-weight: var(--font-weight-body);
   font-size: var(--font-size-body);
   line-height: 1.6;
-  background-color: var(--color-background-body);
 }
 
 h1, thead {
@@ -132,7 +131,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
-  background-color: var(--color-background-header);
   border-bottom: 0.5px dotted;
   overflow: hidden;
   position: fixed;
