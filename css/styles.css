@@ -184,6 +184,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: inherit;
 }
 
+.profile__text {
+  display: flex;
+  flex-direction: column;
+}
+
 /* about.html styles */
 
 .introduction:last-child {
