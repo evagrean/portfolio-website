@@ -163,14 +163,16 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
 }
 
 /* index.html styles */
 
 .profile__portrait {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  float:left;
   width: 100%;
   max-width: 250px;
   height: auto;
@@ -188,7 +190,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 .profile__text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 /* about.html styles */
