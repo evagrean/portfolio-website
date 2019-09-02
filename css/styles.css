@@ -173,7 +173,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* index.html styles */
 
 .profile__portrait {
+<<<<<<< HEAD
   float:left;
+=======
+  float: left;
+>>>>>>> parent of cb6ddb1... Changed to styles.css
   width: 100%;
   max-width: 250px;
   height: auto;
