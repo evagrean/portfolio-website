@@ -181,7 +181,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 120px;
-  display: contents;
+  display: inherit;
 }
 
 /* about.html styles */
