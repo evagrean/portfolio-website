@@ -131,7 +131,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
-  border-bottom: 0.5px dotted;
   background-color: var(--color-background-header);
   overflow: hidden;
   position: fixed;
@@ -168,6 +167,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   overflow: hidden;
   position: fixed;
   bottom: 0;
+  border-top: 0.5px dotted;
 }
 
 /* index.html styles */
