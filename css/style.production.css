@@ -207,6 +207,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   position: fixed;
   bottom: 0;
   border-top: 0.5px dotted;
+  background-color: #fefafa
 }
 
 /* index.html styles */
