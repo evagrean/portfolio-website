@@ -170,6 +170,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   position: fixed;
   bottom: 0;
   border-top: 0.5px dotted;
+  background-color: var(--background-color-body)
 }
 
 /* index.html styles */
