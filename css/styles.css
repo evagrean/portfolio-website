@@ -168,7 +168,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* index.html styles */
 
 .profile__portrait {
-  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   max-width: 250px;
   height: auto;
@@ -186,6 +188,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .profile__text {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* about.html styles */
