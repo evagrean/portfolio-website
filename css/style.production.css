@@ -203,10 +203,6 @@ button:hover, button:focus, .button:hover, .button:focus {
           flex-direction: column;
   text-align: center;
   width: 100%;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  border-top: 0.5px dotted;
   background-color: #fefafa
 }
 
