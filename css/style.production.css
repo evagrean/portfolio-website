@@ -13,6 +13,7 @@ Color quadriga 0%: #D64A4A;
 Color quadriga 50%: #d87f7f;
 Color quadriga 100%: #e7d0d0;
 Color background header: #fff;
+Color background body: #fefafa;
 
 
 */
@@ -27,6 +28,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  background-color: var(color-background-body);
 }
 
 h1 {
@@ -159,7 +161,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   padding: 10px;
   margin-bottom: 40px;
-  border-bottom: 0.5px dotted;
   background-color: #fff;
   overflow: hidden;
   position: fixed;
@@ -201,15 +202,21 @@ button:hover, button:focus, .button:hover, .button:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  border-top: 0.5px dotted;
 }
 
 /* index.html styles */
 
 .profile__portrait {
-  float: left;
+  float:left;
   width: 100%;
   max-width: 250px;
   height: auto;
+  margin-bottom: 100px;
   margin-right: 40px;
   border-radius: 50%;
 }
@@ -218,6 +225,16 @@ button:hover, button:focus, .button:hover, .button:focus {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 120px;
+}
+
+.profile__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* about.html styles */
