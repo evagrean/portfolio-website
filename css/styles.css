@@ -172,6 +172,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   max-width: 250px;
   height: auto;
+  margin-bottom: 100px;
   margin-right: 40px;
   border-radius: 50%;
 }
@@ -181,6 +182,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0 auto;
   margin-top: 120px;
   display: contents;
+  float: right;
 }
 
 /* about.html styles */
